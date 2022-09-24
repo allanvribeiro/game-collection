@@ -1,5 +1,4 @@
--- This file allow to write SQL commands that will be emitted in test and dev.
--- The commands are commented as their support depends of the database
--- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-1');
--- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-2');
--- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-3');
+
+insert into Game (id, game_name, developer, publisher) values(nextval('hibernate_sequence'), 'Final Fantasy XV', 'Square Enix', 'Square Enix');
+insert into Game (id, game_name, developer, publisher) values(nextval('hibernate_sequence'), 'Cult of the lamb', 'Massive Monster', 'Devolver Digital');
+insert into Game (id, game_name, developer, publisher) values(nextval('hibernate_sequence'), 'Forza Horizon 5', 'Turn 10 Studios', 'Xbox Game Studios');
